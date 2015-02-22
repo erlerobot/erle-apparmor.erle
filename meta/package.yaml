@@ -1,0 +1,9 @@
+name: erle-apparmor.erle
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.0
+architecture: armhf
+binaries:
+ - name: src/script.sh
+   security-template: unconfined
+maintainer: Víctor Mayoral <victor@erlerobot.com>
